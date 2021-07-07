@@ -1,0 +1,92 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center {
+    margin-left: 50px;
+    font-size: large;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.selection {
+    float: right;
+    margin-top: -50px;
+    margin-inline: 40px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.selection li {
+    display: inline-block;
+    margin: 10px;
+}
+.img {
+    width: 2000px;
+    height: 188px;
+    background-image:url(" https://jsis.washington.edu/global/wp-content/uploads/sites/17/2020/04/Global-Stuies-Virtual-1024x490.jpeg");
+    
+}
+.text {
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+}
+.item {
+    float: right;
+    margin: -4%;
+    margin-right: 10%;
+}
+.corpo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(75, 75, 179);
+    width: 1200px;
+    height: 1000px;
+}
+.corpo>h2 {
+    font: 40px arial;
+    padding: auto;
+    margin-left: 5%;
+    text-align: right;
+    text-align: left;
+}
+.corpo>p {
+    padding: auto;
+    margin:auto;
+    font: 20px arial;
+    text-align: left;
+}
+.imagem {
+    margin: 7%;
+    margin-left: -1%;
+    margin-right: -60%;
+}
+.imagem1 {
+    margin: 7%;
+    margin-left: -10%;
+    margin-right: 15%;
+    padding: 10%;
+}
+.container>ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4%;
+    padding: 5%;
+}
+ul>li>p{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
